@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
+  background-color: #1f1a1a;
   margin: 0;
   padding: 0;
   display: flex;
@@ -10,28 +10,31 @@ body {
 }
 
 .App {
-  background-color: #fff;
+  background-color: rgb(243, 59, 90);
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
   width: 300px;
 }
 
-h1 {
-  font-size: 24px;
-  margin-bottom: 20px;
+.App h1 {
+  color: #1f1a1a;
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 35px;
 }
 
 form {
   display: flex;
-  flex-direction: column;
+  flex-direction:column;
 }
 
 input {
-  padding: 10px;
+  height: 30px;
+  padding-left: 20px;
   margin-bottom: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+  border: 5px groove #41092e;
+  border-radius: 25px 0px ;
 }
 
 button {
@@ -39,12 +42,12 @@ button {
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  background-color: #007BFF;
+  background-color: #ec832e;
   color: #fff;
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: #305072;
 }
 
 ul {
