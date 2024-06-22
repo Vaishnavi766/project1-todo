@@ -1,6 +1,6 @@
 body {
-  font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
-  background-color: #1f1a1a;
+  font-family:cursive; 
+  background-color: #f1a9a9;
   margin: 0;
   padding: 0;
   display: flex;
@@ -12,9 +12,9 @@ body {
 .App {
   background-color: rgb(233, 218, 12);
   padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
-  width: 300px;
+  border-radius: 70px;
+  box-shadow: 0 0 100px rgba(0,0,0,0.1);
+  width: 400px;
 }
 
 .App h1 {
@@ -30,39 +30,39 @@ form {
 }
 
 input {
-  height: 30px;
-  padding-left: 20px;
-  margin-bottom: 10px;
-  border: 5px groove #41092e;
-  border-radius: 25px 0px ;
+  height: 50px;
+  padding-left: 150px;
+  margin-bottom: 20px;
+  border: 2%;;color: #0c0c0c;
+  border-radius: 40px 0px ;
 }
 
 button {
-  padding: 10px;
-  border: none;
-  border-radius: 5px;
+  padding: 15px;
+  border: 30;color:#0c0c0c;
+  border-radius: 100px;
   cursor: pointer;
-  background-color: #ec832e;
+  background-color: #a00c0c;
   color: #fff;
 }
 
 button:hover {
-  background-color: #305072;
+  background-color: #4378b1;
 }
 
 ul {
-  list-style: none;
-  padding: 0;
+  list-style:box-shadow();
+  padding: 4;
 }
 
 li {
-  display: flex;
+  display:-ms-grid;
   justify-content: space-between;
   padding: 10px;
   background-color: #f9f9f9;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 5px solid #eef2f3;
 }
 
 li button {
-  margin-left: 10px;
+  margin-left:40px;
 }
